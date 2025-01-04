@@ -8,7 +8,7 @@ interface Props {
 }
 
 export default function RevealText({ text }: Props) {
-  const words = text.split(" ");
+  // const words = text.split(" ");
 
   return (
     <motion.div
